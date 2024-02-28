@@ -1,0 +1,27 @@
+{
+  "name": "@youngseo/eslint-config-front",
+  "version": "0.0.1",
+  "description": "eslint-config for front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./rn": "./src/rn.js",
+    "./next": "./src/next.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0seo8/eslint-config-front.git"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "youngseo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0seo8/eslint-config-front/issues"
+  },
+  "homepage": "https://github.com/0seo8/eslint-config-front#readme"
+}
