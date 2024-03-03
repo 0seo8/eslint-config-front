@@ -19,12 +19,12 @@ jobs:
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
-          scope: '@your-npm-username'
+          scope: '@0seo8'
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Publish
+        run: npm ci
+      - name: Publish to GitHub Packages
         run: npm publish
+
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
