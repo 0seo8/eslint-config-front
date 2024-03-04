@@ -9,7 +9,8 @@
   "exports": {
     ".": "./index.js",
     "./rn": "./src/rn.js",
-    "./next": "./src/next.js"
+    "./next": "./src/next.js",
+    "./react": "./src/react.js"
   },
   "repository": {
     "type": "git",
