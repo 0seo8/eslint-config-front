@@ -15,7 +15,7 @@ $ vi .npmrc
 
 ```bash
 # Development Run(초기설정)
-$ npm i -D @0seo8/eslint-config-crypted
+$ npm i -D @0seo8/eslint-config
 $ touch .eslintrc.js prettierrc.js
 
 # 기존 설치된 패키지와 에러발생시

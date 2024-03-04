@@ -22,4 +22,4 @@ _book
 #production
 /build
 
-.env
+.npmrc
