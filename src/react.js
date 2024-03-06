@@ -19,7 +19,7 @@ module.exports = {
     'unused-imports',
     'prettier',
   ],
-  extends: ['react-app', 'prettier'],
+  extends: ['prettier'],
   rules: {
     'import/order': [
       'warn',
