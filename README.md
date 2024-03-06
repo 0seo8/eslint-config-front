@@ -19,7 +19,7 @@ $ npm i -D @0seo8/eslint-config
 $ touch .eslintrc.js prettierrc.js
 
 # 기존 설치된 패키지와 에러발생시
-$ npm i --peer --legacy-peer-deps -D @0seo8/eslint-config-crypted
+$ npm i --peer --legacy-peer-deps -D @0seo8/eslint-configzz∑
 ```
 
 ## .eslintrc.js
