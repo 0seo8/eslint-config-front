@@ -1,6 +1,6 @@
 {
   "name": "@0seo8/eslint-config",
-  "version": "0.0.17",
+  "version": "0.0.19",
   "description": "eslint-config for front",
   "main": "index.js",
   "scripts": {
