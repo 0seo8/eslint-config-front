@@ -14,8 +14,8 @@ module.exports = {
     node: true,
   },
   plugins: [
-    '@typescript-eslint',
     'react',
+    '@typescript-eslint',
     'react-hooks',
     'import',
     'react-native',
