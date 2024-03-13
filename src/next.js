@@ -89,6 +89,7 @@ module.exports = {
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/comma-dangle': 'off',
         '@typescript-eslint/indent': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
       },
     },
   ],
