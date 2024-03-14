@@ -28,6 +28,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    'react/button-has-type': 'off',
     'react/jsx-filename-extension': [
       1,
       { extensions: ['.js', '.ts', '.jsx', '.tsx'] },
