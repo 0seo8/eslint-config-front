@@ -77,13 +77,6 @@ module.exports = {
       plugins: ['@typescript-eslint'],
       extends: ['airbnb-typescript', 'plugin:@typescript-eslint/recommended'],
       rules: {
-        '@typescript-eslint/quotes': [
-          2,
-          'backtick',
-          {
-            avoidEscape: true,
-          },
-        ],
         '@typescript-eslint/space-before-blocks': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
