@@ -21,8 +21,22 @@ module.exports = {
   ],
   extends: ['prettier'],
   rules: {
+    'import/extensions': [
+      'error',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+        json: 'ignorePackages',
+      },
+    ],
     'no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
+    'import/no-extraneous-dependencies': 'off',
+    'import/no-named-as-default': 'off',
+    'import/prefer-default-export': 'off',
+    'import/no-cycle': 'off',
     'import/order': [
       'warn',
       {
